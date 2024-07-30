@@ -1,14 +1,12 @@
-package com.example.fetchapi.configuration;
+package com.example.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//@ComponentScan(basePackages = "com.example.FetchMethod")
+@ComponentScan(basePackages = "com.example")
 public class AdditionalComponentScanConfig {
-
-
 }
 
 

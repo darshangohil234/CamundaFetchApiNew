@@ -1,8 +1,7 @@
-package com.example.fetchapi;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 /**
  * FetchCamundaTaskApiApplication is the entry point of the spring boot application.
@@ -10,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
  * <p> @author Darshan Gohil </p>
  */
 @SpringBootApplication
-@ComponentScan(basePackages = "com.example.FetchMethod")
 public class FetchCamundaTaskApiApplication {
 
 	/**
